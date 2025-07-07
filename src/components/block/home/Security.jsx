@@ -52,7 +52,7 @@ const Savings = () => {
       </section>
       <section className=" flex justify-center max-w-[1200px] flex-wrap">
         {piggyCard?.map((data, i) => (
-          <main className=" bg-white h-[400px] w-[400px] m-9 p-5" key={i} >
+          <main className=" bg-white h-[400px] w-[400px] m-9 p-5 rounded-3xl" key={i} >
             <h1
               style={{ color: `${data.color}` }}
               className=" font-bold text-3xl"

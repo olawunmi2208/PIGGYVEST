@@ -9,7 +9,7 @@ import piggyvest from '../assets/piggyvest.svg'
 
 const Footer = () => {
   return (
-    <div className='flex flec-col justify-between items-center my-20'>
+    <div className='flex flec-col justify-between items-center my-20 mx-20  '>
       <main>
      <img src={piggyvest} alt="" />
       <img className='h-30' src={compliance} alt="" />
@@ -35,8 +35,8 @@ const Footer = () => {
             <p>Privacy</p>
             <p>Security</p>
          </main>
-         <div className='flex'>
-         <section className='flex h-3 gap-2'>
+         <div>
+         <section className='flex h-3 gap-2 mx-30'>
           <img src={facebook} alt="" />
           <img src={instagram}alt="" />
           <img src={twitter} alt="" />
@@ -44,7 +44,7 @@ const Footer = () => {
           <img src={youtube} alt="" />
          </section>
          <main>
-         <p className='w-32'>Tesmot house, Abdulrahman Okene close, Victoria Island, Lagos, Nigeria.</p>
+         <p className='w-[50%]'>Tesmot house, Abdulrahman Okene close, Victoria Island, Lagos, Nigeria.</p>
          <p>contact@piggyvest.com</p>
          <p>+234 700 933 9339</p>
          </main>
