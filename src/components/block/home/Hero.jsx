@@ -32,8 +32,8 @@ const Hero = () => {
                         <Button
                         title="Get on Android"
                         bgColor="#122231"
-                        textColor="#fff"
-                       iconTitle={<FaGooglePlay/>}                  
+                        textColor="#fff"                  
+                       iconTitle={<FaGooglePlay/>}
                            />
                      </main>
             </section>
